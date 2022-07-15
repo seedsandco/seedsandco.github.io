@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Arima', cursive;
+    font-size: 72px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-top: 15px;
+    
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #3e2930;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+#textos{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    background-color: #e8c4cf;
+}
+
+
+.columnas2{
+    display: flex;
+    flex-direction: column;
+    width: 625px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.rectangulo {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    background: #c996a2;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 20px;
+}
+
+.rectangulo h2{
+    text-align: center;
+}
+
+#Fondoh1 {
+    background-color: #e8c4cf;
+    width: 1320px;
+    margin: auto;
+}
+
+#bienvenidoscolor {
+    background-image: url(../img/Fondo-Avant.jpg); 
+    height: 500px;
+    width: 1320px;
+    margin: auto;
+    padding-top: 12%;
+}
+
+.contenedor h1{
+    color: #ffffff;
+    background-color: #e8c4cf;
+    justify-content: center;
+}
+
+#nave{
+    background-color: #c996a2;
+    justify-content: center;
+}
+
+nav ul{
+    padding-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: #ffff;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer .contenedor{
+    background-color: #c996a2;
+    flex-direction: column;
+}
+
+footer .contenedor img{
+    align-content: center;
+}
+
+.contenedor img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#margen img{
+    margin-left: 15px;
+}
+
+#Relfi {
+    margin-left: 40%;
+}
+
+#Belena {
+    margin-left: 40%;
+}
+
+#Portfolio {
+    background-color: #c996a2;
+    height: 420px;
+    width: 1320px;
+    margin: auto;
+}
+
+#Servicios {
+    background-color: #e8c4cf;
+    width: 1320px;
+    margin: auto;
+}
+
+#FondoContacto {
+    background-image: url(../img/contacto-balance.jpg);
+    height: 500px;
+}
+#TituloContenedor h2{
+    color: #3e2930;
+    margin-bottom: -3px;
+}
+#TituloContenedor2 h3{
+    color: #3e2930;
+    margin-bottom: 20px;
+}
+
+#Contacto {
+    background-color: #c996a2;
+    width: 1320px;
+    margin: auto;
+}
+
+#Contenedor {
+    flex-direction: column;
+}
+
+#Formulario {
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.Arreglo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #3e2930;
+}
+input{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    width: 70%;
+    background-color: #e8c4cf;
+    color: #3e2930;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+textarea{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    width: 70%;
+    background-color: #e8c4cf;
+    color: #3e2930;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+label{
+    display: block;
+}
+
+.enviar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 180px;
+}
+
+#Instagram {
+    margin-left: 48%;
+}
+
+#Seguime {
+    margin-top: 10px;
+    justify-content: center;
+    height: 5px;
+}
+
+#Seguime p {
+    color: #ffffff;
+}
+
+#Copyright p {
+    color: #ffffff;
+}
